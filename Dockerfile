@@ -2,4 +2,4 @@
 FROM ubuntu
 RUN apt update
 RUN apt install -y nginx
-CMD ['echo', 'Container created']
+CMD echo "Container created"
